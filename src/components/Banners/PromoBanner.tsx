@@ -1,5 +1,4 @@
-import * as React from 'react'
-import { Box, Container, Grid, Paper, Stack, Typography } from '@mui/material'
+import { Paper, Stack, Typography } from '@mui/material'
 
 export default function ProBanner() {
     return (

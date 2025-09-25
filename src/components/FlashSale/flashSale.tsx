@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { Box, Container, Typography, Card, CardMedia, CardContent, Chip, Stack } from '@mui/material'
 import { flashSale } from '../../mockData/data'
 export default function FlashSale() {

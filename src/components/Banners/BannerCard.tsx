@@ -1,8 +1,6 @@
-
-// import * as React from "react";
-import { Paper, Typography, Box } from "@mui/material";
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"; 
+import { Paper, Box } from "@mui/material";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 interface BannerCardItem {
@@ -80,7 +78,7 @@ export default function BannerCard({ items }: BannerCardProps) {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 3000, // 3 วิ ต่อสไลด์
+    autoplaySpeed: 3000, 
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,

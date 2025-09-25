@@ -1,6 +1,5 @@
-import * as React from 'react'
-import { Box, Container, Grid, Stack, } from '@mui/material'
-import BannerCard from './BannerCard'
+import { Box, Container, Grid, Stack, } from '@mui/material';
+import BannerCard from './BannerCard';
 export default function TopBanner() {
     const banners = [
         { text: "https://down-th.img.susercontent.com/file/th-11134258-81ztl-mexu7nq1akn64f@resize_w797_nl.webp", bg: "" },
