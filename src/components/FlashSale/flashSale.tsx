@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Card, CardMedia, CardContent, Chip, Stack, styled } from '@mui/material'
+import { Box, Container, Typography, Card, CardMedia, CardContent, Chip, Stack,  } from '@mui/material'
 import { flashSale } from '../../mockData/data'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
