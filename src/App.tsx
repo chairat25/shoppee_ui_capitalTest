@@ -1,8 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
+import './App.css'
 import Header from './components/Header/header'
 import TopBanner from './components/Banners/TopBanner'
 import CategoryCarourel from './components/Carousel/categoryCarourel'
