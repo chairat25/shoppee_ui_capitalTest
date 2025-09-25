@@ -54,15 +54,72 @@ export const categories: Category[] = [
   },
 ];
 
-export const flashSale: Product[] = Array.from({ length: 10 }).map((_, i) => ({
-  id: `fs-${i + 1}`,
-  title: `สินค้า Flash ${i + 1}`,
-  price: 199 + i * 20,
-  image: `https://images.unsplash.com/photo-15${
-    80 + i
-  }-?auto=format&fit=crop&w=400&q=60`.replace("photo-15", "photo-15"),
-  discountPercent: 20 + (i % 4) * 10,
-}));
+export const flashSale: Product[] = [
+  {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+    {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+    {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+    {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+      {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+
+      {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+      {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+      {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+      {
+    id: "fs1",
+    title: "Flash Sale สินค้า 1",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=256",
+    discountPercent: 20,
+  },
+];
 
 export const mallBrands: {
   id: string;
@@ -70,6 +127,7 @@ export const mallBrands: {
   image: string;
   off: number;
   imageProduct: string;
+  imageProduct2?: string;
 }[] = [
   {
     id: "lotus",
@@ -78,6 +136,8 @@ export const mallBrands: {
     imageProduct:
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=512",
     off: 30,
+    imageProduct2:
+      "https://down-th.img.susercontent.com/file/th-11134258-7ra0s-mc8y4511u3ub9b@resize_w201_nl.webp",
   },
   {
     id: "loreal",
@@ -86,54 +146,103 @@ export const mallBrands: {
     imageProduct:
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=512",
     off: 50,
+    imageProduct2:
+      "https://down-th.img.susercontent.com/file/th-11134258-7ra0h-md5haukp4cx215@resize_w201_nl.webp",
   },
   {
     id: "ck",
     title: "CK",
-    image: "https://images.unsplash.com/photo-1520975922324-8b456906c813?w=512",
+    image:
+      "https://down-th.img.susercontent.com/file/th-50009…7cf8699682145b4fdadbd61c8cc9d@resize_w201_nl.webp",
     imageProduct:
-      "https://images.unsplash.com/photo-1520975922324-8b456906c813?w=512",
+      "https://down-th.img.susercontent.com/file/th-50009…7cf8699682145b4fdadbd61c8cc9d@resize_w201_nl.webp",
     off: 60,
+    imageProduct2:
+      "https://down-th.img.susercontent.com/file/a4cf659080a64d2e04d5ab80d94b5bb5@resize_w201_nl.webp",
   },
   {
-    id: "evb",
-    title: "EVENBOY",
-    image: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
+    id: "everyboy",
+    title: "Everyboy",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
     imageProduct:
-      "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-    off: 40,
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
+    off: 70,
+    imageProduct2:
+      "	https://down-th.img.susercontent.com/file/th-11134258-7rasf-m2t03ptf56kz78@resize_w201_nl.webp",
   },
   {
-    id: "evb",
-    title: "EVENBOY",
-    image: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
+    id: "everyboy",
+    title: "Everyboy",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
     imageProduct:
-      "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-    off: 40,
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
+    off: 70,
+    imageProduct2:
+      "	https://down-th.img.susercontent.com/file/th-11134258-7rasf-m2t03ptf56kz78@resize_w201_nl.webp",
   },
-  //    {
-  //   id: "evb",
-  //   title: "EVENBOY",
-  //   image: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-  //   imageProduct: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-  //   off: 40,
-  // },
-  //      {
-  //   id: "evb",
-  //   title: "EVENBOY",
-  //   image: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-  //   imageProduct: "https://images.unsplash.com/photo-1520975605361-5ccda55f3f5b?w=512",
-  //   off: 40,
-  // },
+  {
+    id: "everyboy",
+    title: "Everyboy",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
+    imageProduct:
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=512",
+    off: 70,
+    imageProduct2:
+      "	https://down-th.img.susercontent.com/file/th-11134258-7rasf-m2t03ptf56kz78@resize_w201_nl.webp",
+  },
 ];
 
-export const products: Product[] = Array.from({ length: 36 }).map((_, i) => ({
-  id: `p-${i + 1}`,
-  title: `สินค้าแนะนำ ${i + 1}`,
-  price: 99 + i * 13,
-  image: `https://images.unsplash.com/photo-16${
-    10 + (i % 80)
-  }?auto=format&fit=crop&w=600&q=60`.replace("photo-16", "photo-16"),
-  badge: i % 3 === 0 ? "ยอดนิยม" : undefined,
-  discountPercent: i % 5 === 0 ? 45 : undefined,
-}));
+export const products: Product[] = [
+  {
+    id: "p1",
+    title: "สินค้าแนะนำ 1",
+    price: 299,
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7ra0o-mdtzo33sbotu9f_tn.webp",
+  },
+  {
+    id: "p2",
+    title: "สินค้าแนะนำ 2",
+    price: 299,
+    discountPercent: 10,
+    badge: "ขายดี",
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7rasl-majgidi031jk45_tn.webp",
+  },
+  {
+    id: "p2",
+    title: "สินค้าแนะนำ 2",
+    price: 299,
+    discountPercent: 10,
+    badge: "ขายดี",
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7rasl-majgidi031jk45_tn.webp",
+  },
+  {
+    id: "p2",
+    title: "สินค้าแนะนำ 2",
+    price: 299,
+    discountPercent: 10,
+    badge: "ขายดี",
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7rasl-majgidi031jk45_tn.webp",
+  },
+  {
+    id: "p2",
+    title: "สินค้าแนะนำ 2",
+    price: 299,
+    discountPercent: 10,
+    badge: "ขายดี",
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7rasl-majgidi031jk45_tn.webp",
+  },
+  {
+    id: "p2",
+    title: "สินค้าแนะนำ 2",
+    price: 299,
+    discountPercent: 10,
+    badge: "ขายดี",
+    image:
+      "https://down-th.img.susercontent.com/file/th-11134207-7r98o-lkjisn260qak6a_tn.webp",
+  },
+];

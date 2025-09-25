@@ -99,39 +99,24 @@ export default function TopBanner() {
               </Box>
             </Box>
 
-            {/* Right Slider */}
             <Box sx={{ flex: 2, overflow: "hidden" }}>
               <Slider {...settings}>
                 {mallBrands.map((b) => (
-                  <Box key={b.id} sx={{ px: 1 }}>
-                    <Paper
-                      variant="outlined"
-                      sx={{
-                        p: 2,
-                        borderRadius: 3,
-                        textAlign: "center",
-                        height: "100%",
-                      }}
-                    >
-                      <Box
-                        component="img"
-                        src={b.image}
-                        alt={b.title}
-                        sx={{
-                          width: "100%",
-                          height: 90,
-                          objectFit: "contain",
-                          borderRadius: 2,
-                          mb: 1,
-                        }}
-                      />
+                
+                  <Box key={b.id} sx={{ px: 2 }}>
+                    <img 
+                    src={b.imageProduct2} 
+                    alt={b.title} 
+                    style={{width:100, height:100,left:20, objectFit:'contain', marginBottom:8 ,marginLeft:10}}
+                    />
+                   
                       <Typography variant="body2" fontWeight={700}>
                         {b.title}
                       </Typography>
                       <Typography variant="caption" color="primary">
                         ลดสูงสุด {b.off}%
                       </Typography>
-                    </Paper>
+           
                   </Box>
                 ))}
               </Slider>
